@@ -17,7 +17,9 @@ Prompt(역변환 방법 프롬프트) is written for each Task (Concept ARC has 
 * Chat GPT makes other inputs which is suitable to given output
 
   i. Make prompt file(Prompt.json) with GPT_prompt.py
+  
   ii. Use GPT API (GPT3.5_prompt.py / GPT4.0_prompt.py) to make Augmented DATA
+  
   iii. I have chosen appropriate input by hand_filter.py
 
 
