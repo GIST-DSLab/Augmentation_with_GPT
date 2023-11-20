@@ -47,17 +47,17 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 
      This json file is composed of input, output, task(Concept ARC Task e.g. AboveBelow, Center,...), result, test_input and test_output.
 
-        1) input: input data from concept ARC(train)
-        
-        2) output: output data from concept ARC(train)
-
-        3) task: task name from concept ARC
-
-        4) result: this array is for complement from chat-GPT, which means it is okay to be empty.
-
-        5) test_input: this array is just for deliver to Result file(to adapt ARC interface) <- this array is not so important
-
-        6) test_output: this array is just for deliver to Result file(to adapt ARC interface) <- this array is not so important
+            1) input: input data from concept ARC(train)
+            
+            2) output: output data from concept ARC(train)
+    
+            3) task: task name from concept ARC
+    
+            4) result: this array is for complement from chat-GPT, which means it is okay to be empty.
+    
+            5) test_input: this array is just for deliver to Result file(to adapt ARC interface) <- this array is not so important
+    
+            6) test_output: this array is just for deliver to Result file(to adapt ARC interface) <- this array is not so important
       
 <img width="275" alt="스크린샷 2023-11-20 145812" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/e61b6abd-4244-460a-b5b7-c18722d26ee8">
       * You may got this result if you use my prompt.
