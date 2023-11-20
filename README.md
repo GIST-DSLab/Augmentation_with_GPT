@@ -58,22 +58,22 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 ## Result Table
 |Kinds of problems|Total available|The number of augmentated data|The number of valid augmentated data|Ratio(valid/augmentation)|
 |:---:|:---:|:---:|:---:|:---:|
-|Above Below|58|158|34|21.52%|
-|Center|65|236|35|14.83%|
-|Clean Up|106|183|83|45.36%|
-|Complete Shape|58|147|37|25.17%|
-|Copy|27|153|4|2.61%|
-|Count|56|202|29|14.36%|
-|Extend To Boundary|37|167|8|4.79%|
-|Extract Objects|44|176|21|11.93%|
-|Filled Not Filled|58|203|29|14.29%|
-|Horizontal Vertical|32|114|7|6.14%|
-|Inside Outside|52|191|24|12.57%|
-|Move To  Boundary|36|165|12|7.27%|
-|Order|47|162|26|16.05%|
-|Same Different|107|246|76|30.89%|
-|Top Bottom 2D|92|255|59|23.14%|
-|Top Bottom 3D|55|215|25|11.63%|
+|[Above Below](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/AboveBelow.pdf)|58|158|34|21.52%|
+|[Center](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/Center.pdf)|65|236|35|14.83%|
+|[Clean Up](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/CleanUp.pdf)|106|183|83|45.36%|
+|[Complete Shape](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/CompleteShape.pdf)|58|147|37|25.17%|
+|[Copy](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/Copy.pdf)|27|153|4|2.61%|
+|[Count](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/Count.pdf)|56|202|29|14.36%|
+|[Extend To Boundary](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/ExtendToBoundary.pdf)|37|167|8|4.79%|
+|[Extract Objects](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/ExtractObjects.pdf)|44|176|21|11.93%|
+|[Filled Not Filled](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/FilledNotFilled.pdf)|58|203|29|14.29%|
+|[Horizontal Vertical](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/HorizontalVertical.pdf)|32|114|7|6.14%|
+|[Inside Outside](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/InsideOutside.pdf)|52|191|24|12.57%|
+|[Move To  Boundary](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/MoveToBoundary.pdf)|36|165|12|7.27%|
+|[Order](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/Order.pdf)|47|162|26|16.05%|
+|[Same Different](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/SameDifferent.pdf)|107|246|76|30.89%|
+|[Top Bottom 2D](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/TopBottom2D.pdf)|92|255|59|23.14%|
+|[Top Bottom 3D](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/TopBottom3D.pdf)|55|215|25|11.63%|
 |Total|930|2913|509|17.12%|
 
 <img width="275" alt="스크린샷 2023-11-20 145812" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/e61b6abd-4244-460a-b5b7-c18722d26ee8">
