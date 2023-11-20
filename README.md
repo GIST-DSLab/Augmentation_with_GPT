@@ -25,7 +25,7 @@ Prompt(역변환 방법 프롬프트) is written for each Task (Concept ARC has 
 
 If you want to use this method with other prompt, you may change prompt in GPT_prompt.py
 
-3. File(GPT_DATA) to augment Concept ARC
+3. Code File(GPT_DATA) to augment Concept ARC
 
    i. GPT3.5_prompt.py
 
@@ -62,6 +62,6 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 <img width="275" alt="스크린샷 2023-11-20 145812" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/e61b6abd-4244-460a-b5b7-c18722d26ee8">
       * You may got this result if you use my prompt.
       
-  V. hand_filter.py
+  v. hand_filter.py
 
     this python file is that I've used to filter inadequate data.
