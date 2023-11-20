@@ -61,4 +61,4 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 
   V. hand_filter.py
 
-    this python file is that I've used to filter inadequated data.
+    this python file is that I've used to filter inadequate data.
