@@ -56,7 +56,7 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 
 
 ## Result Table
-|Kinds of problems|Total available|The number of generated data|The number of valid augmentated data|Ratio(valid/generated)|
+|Problem Category|Total available|The number of generated data|The number of valid augmentated data|Ratio(valid/generated)|
 |:---:|:---:|:---:|:---:|:---:|
 |[Above Below](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/AboveBelow.pdf)|58|158|34|21.52%|
 |[Center](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/Center.pdf)|65|236|35|14.83%|
