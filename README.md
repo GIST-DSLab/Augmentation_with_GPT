@@ -5,11 +5,11 @@ What I did: Augmenting Concept ARC Problem
 How to augment
 1. Guessing input data by some characteristics in ARC Problem
 
-<img width="334" alt="스크린샷 2023-10-13 171703" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/4f312bd3-0cec-4331-a0ee-9751b13805d0">
+<img width="603" alt="스크린샷 2023-11-20 143112" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/7cd459d7-0cfa-49aa-81f9-7b4ea71e943a">
 
 2. Augmentation Process
 
-<img width="1033" alt="스크린샷 2023-10-30 165149" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/6869b0cb-2777-419b-80b4-2d7480276b75">
+<img width="1033" alt="스크린샷 2023-10-30 165149" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/06d91890-7855-4d8c-8aae-1718605553e4">
 
 Prompt(역변환 방법 프롬프트) is written for each Task (Concept ARC has 16 Tasks)
 
@@ -76,8 +76,6 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 |[Top Bottom 3D](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/TopBottom3D.pdf)|55|215|25|11.63%|
 |Total|930|2913|509|17.12%|
 
-<img width="275" alt="스크린샷 2023-11-20 145812" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/e61b6abd-4244-460a-b5b7-c18722d26ee8">
-      * You may got this result if you use my prompt.
       
    v. hand_filter.py
    
