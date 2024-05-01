@@ -20,49 +20,23 @@ The prompts in (1) are prompts specific to each category rather than to individu
  (3) Data Generation
 ![스크린샷 2024-05-01 오후 9 12 51](https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/a9711d10-7a25-4668-8faa-389852fa9cf7)
 
-* Emphasized input(blue and skyblue one) is augmentation target.
-* Chat GPT makes other inputs which is suitable to given output
-  i. Make prompt file(Prompt.json) with GPT_prompt.py
-  
-  ii. Use GPT API (GPT3.5_prompt.py / GPT4.0_prompt.py) to make Augmented DATA
-  
-  iii. I have chosen appropriate input by hand_filter.py
-
-
  (4) Data Filtering
 Despite utilizing negative prompts, many of the generated data from the large language model did not meet the criteria. Therefore, an additional filtering process was necessary, and in this study, we filtered using the large language model.
-![스크린샷 2024-05-01 오후 9 13 16](https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/6e5229ef-0898-41e8-bc90-ca6a2f8de6fb)
+![스크린샷 2024-05-01 오후 9 20 04](https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/4071d0c2-1182-480b-b89c-dd230184d6f1)
 
 
 3. Code File(GPT_DATA) to augment Concept ARC
 
-   i. GPT3.5_prompt.py
+  i. Generate ARC File with Research_2024_Gen
+    The file in Research_2024_GEN is for generating ARC. (2.(1) - (3))
+     1) ARC_Reverse.py will make inverse ARC Problem which will be in Reverse_Concept_Data
+     2) Generate_with_Prompt/Generate.py will make ARC Problem.
+     3) Remove_Redundancy.py will get rid of overlapped data.
 
-     This file is using GPT-3.5 API to make ARC Demonstration
-
-   ii. GPT4.0_prompt.py
-
-     This file is using GPT-4.0 API to make ARC Demonstration
-
-   iii. GPT_prompt.py
-
-     This code is making prompt json file
-
-      * You should change this file if you would like to change prompt.
-
-   iv. Prompt.json
-
-     This json file is that I have used to augment concept.
-
-     This json file is composed of input, output, task(Concept ARC Task e.g. AboveBelow, Center,...), result, test_input and test_output.
-
-     1) input: input data from concept ARC(train)
-     2) output: output data from concept ARC(train)
-     3) task: task name from concept ARC
-     4) result: this array is for complement from chat-GPT, which means it is okay to be empty.
-     5) test_input: this array is just for deliver to Result file(to adapt ARC interface) <- this array is not so important
-     6) test_output: this array is just for deliver to Result file(to adapt ARC interface) <- this array is not so important
-
+  ii. Filter the inadequate ARC File with Research_2024_FILTER
+    The file in Research_2024_FILTER is for Filtering unsuitable ARC. (2.(4))
+     1) Prompt.py will make prompt file to help filtering.
+     2) File in Decision Folder is for 
 
 ## Result Table
 |Problem Category|Total available|The number of generated data|The number of valid augmentated data|Ratio(valid/generated)|
