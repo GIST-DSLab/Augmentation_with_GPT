@@ -6,7 +6,7 @@ import json
 
 client = AzureOpenAI(
   azure_endpoint = "https://temp-arc.openai.azure.com/", 
-  api_key="87b710346234425dbaaef971cf332517",
+  api_key="",
   api_version="2024-02-15-preview"
 )
 
