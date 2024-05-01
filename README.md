@@ -5,8 +5,8 @@ What I did: Augmenting Concept ARC Problem
 How to augment
 1. Guessing input data by some characteristics in ARC Problem
 
-[다대일2.pdf](https://github.com/GIST-DSLab/Augmentation_with_GPT/files/15176761/2.pdf)
-[다대일1.pdf](https://github.com/GIST-DSLab/Augmentation_with_GPT/files/15176760/1.pdf)
+<img width="1033" alt="스크린샷 2023-10-30 165149" src="[https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/06d91890-7855-4d8c-8aae-1718605553e4](https://github.com/GIST-DSLab/Augmentation_with_GPT/files/15176760/1.pdf)">
+<img width="1033" alt="스크린샷 2023-10-30 165149" src="[https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/06d91890-7855-4d8c-8aae-1718605553e4]([https://github.com/GIST-DSLab/Augmentation_with_GPT/files/15176760/1.pdf](https://github.com/GIST-DSLab/Augmentation_with_GPT/files/15176761/2.pdf))">
 
 2. Augmentation Process
 
