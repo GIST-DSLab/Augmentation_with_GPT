@@ -28,15 +28,31 @@ Despite utilizing negative prompts, many of the generated data from the large la
 3. Code File(GPT_DATA) to augment Concept ARC
 
   i. Generate ARC File with Research_2024_Gen
+  
     The file in Research_2024_GEN is for generating ARC. (2.(1) - (3))
+    
      1) ARC_Reverse.py will make inverse ARC Problem which will be in Reverse_Concept_Data
+     
      2) Generate_with_Prompt/Generate.py will make ARC Problem.
+     
      3) Remove_Redundancy.py will get rid of overlapped data.
 
   ii. Filter the inadequate ARC File with Research_2024_FILTER
+  
     The file in Research_2024_FILTER is for Filtering unsuitable ARC. (2.(4))
+    
      1) Prompt.py will make prompt file to help filtering.
-     2) File in Decision Folder is for 
+    
+     2) File in Decision Folder is filtering code.
+
+       - n3 means generated with gpt 3.5 without prompt concretization
+
+       - s3 means generated with gpt 3.5 with prompt concretization
+       
+       - n4 means generated with gpt 4.0 without prompt concretization
+       
+       - s4 means generated with gpt 4.0 with prompt concretization
+
 
 ## Result Table
 |Problem Category|Total available|The number of generated data|The number of valid augmentated data|Ratio(valid/generated)|
