@@ -6,11 +6,11 @@ MODE = 'GPT3-5'
 
 client = AzureOpenAI(
   azure_endpoint = "https://desicionllm.openai.azure.com/", 
-  api_key="a50ef2cb5f494575b9af9d04e419bbb4",
+  api_key="",
   api_version="2024-02-15-preview"
 ) if MODE == 'GPT4' else AzureOpenAI(
   azure_endpoint = "https://canada-arc.openai.azure.com/", 
-  api_key="b7bfb05d77214413a968e896511a608b",
+  api_key="",
   api_version="2024-02-15-preview"
 )
 
