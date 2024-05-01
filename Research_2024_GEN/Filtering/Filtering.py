@@ -6,7 +6,7 @@ import json
 
 client = AzureOpenAI(
   azure_endpoint = "https://desicionllm.openai.azure.com/", 
-  api_key="a50ef2cb5f494575b9af9d04e419bbb4",
+  api_key="",
   api_version="2024-02-15-preview"
 )
 
