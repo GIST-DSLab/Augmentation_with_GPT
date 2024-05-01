@@ -8,14 +8,20 @@ How to augment
 ![다대일](https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/1f496c54-a712-4937-a465-4f4f7d89d545)
 
 2. Augmentation Process
-
-<img width="1033" alt="스크린샷 2023-10-30 165149" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/06d91890-7855-4d8c-8aae-1718605553e4">
-
+ (1) Category Prompt
 Prompt(역변환 방법 프롬프트) is written for each Task (Concept ARC has 16 Tasks)
+  * If you want to use this method with other prompt, you may change prompt in GPT_prompt.py
 
-* dotted input(pink and green one) is augmentation target.
+ (2) Prompt Concretization
+The prompts in (1) are prompts specific to each category rather than to individual problems. However, since each category contains problems with diverse logical relationships, we aimed to increase accuracy by adding prompts that describe each problem in detail.
+
+![스크린샷 2024-05-01 오후 9 12 27](https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/88162a17-0c2a-4ce7-824a-4299d35d5260)
+
+ (3) Data Generation
+![스크린샷 2024-05-01 오후 9 12 51](https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/a9711d10-7a25-4668-8faa-389852fa9cf7)
+
+* Emphasized input(blue and skyblue one) is augmentation target.
 * Chat GPT makes other inputs which is suitable to given output
-
   i. Make prompt file(Prompt.json) with GPT_prompt.py
   
   ii. Use GPT API (GPT3.5_prompt.py / GPT4.0_prompt.py) to make Augmented DATA
@@ -23,7 +29,10 @@ Prompt(역변환 방법 프롬프트) is written for each Task (Concept ARC has 
   iii. I have chosen appropriate input by hand_filter.py
 
 
-If you want to use this method with other prompt, you may change prompt in GPT_prompt.py
+ (4) Data Filtering
+Despite utilizing negative prompts, many of the generated data from the large language model did not meet the criteria. Therefore, an additional filtering process was necessary, and in this study, we filtered using the large language model.
+![스크린샷 2024-05-01 오후 9 13 16](https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/6e5229ef-0898-41e8-bc90-ca6a2f8de6fb)
+
 
 3. Code File(GPT_DATA) to augment Concept ARC
 
