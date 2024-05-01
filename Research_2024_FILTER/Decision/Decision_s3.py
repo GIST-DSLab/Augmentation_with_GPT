@@ -8,7 +8,7 @@ MODE = 'GPT3-5'
 
 client = AzureOpenAI(
   azure_endpoint = "https://canada-arc.openai.azure.com/", 
-  api_key="b7bfb05d77214413a968e896511a608b",
+  api_key="",
   api_version="2024-02-15-preview"
 )
 
