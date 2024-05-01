@@ -76,6 +76,6 @@ Despite utilizing negative prompts, many of the generated data from the large la
 |Total|930|2913|509|17.12%|
 
       
-   v. hand_filter.py
+   * HF_Filter.py within Research_2024_GEN
    
    this python file is that I've used to filter inadequate data.
